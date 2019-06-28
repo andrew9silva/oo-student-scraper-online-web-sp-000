@@ -18,7 +18,6 @@ class Student
   def add_student_attributes(attributes_hash)
     attributes_hash.each {|a, b| self.send(("#{a}="), b)}
     self
-
   end
 
   def self.all
